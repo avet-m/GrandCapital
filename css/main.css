@@ -1,0 +1,348 @@
+body {
+  background: #f0eff0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.wapp-all {
+  padding-top: 40px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1179px;
+  margin: 0 auto;
+}
+.wrapper_white {
+  background: #fff;
+}
+.wrapper_work {
+  padding-bottom: 70px;
+}
+
+.container_custom {
+  padding: 43px 25px 47px 31px;
+  margin: 0 auto;
+}
+
+.title-block {
+  position: relative;
+  width: 100%;
+}
+.title-block__title-name {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 36px;
+  font-family: "PT Sans", sans-serif;
+  color: #424243;
+}
+
+.bank {
+  position: relative;
+  margin-top: 30px;
+}
+.bank__img-block {
+  display: inline-block;
+  max-width: 138px;
+}
+.bank__img-block__bank-number {
+  display: block;
+  margin-top: 8px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #404041;
+}
+.bank__descriptions {
+  display: inline-block;
+}
+.bank__descriptions__list {
+  margin: 0;
+  position: relative;
+  bottom: 27px;
+  padding-left: 18px;
+}
+.bank__descriptions__list__item {
+  margin-top: 3px;
+  color: #424243;
+}
+.bank__descriptions__list__item_bold {
+  font-weight: bold;
+}
+.bank__descriptions__arrow {
+  position: absolute;
+  right: 0;
+}
+.bank__descriptions__arrow_b-1 {
+  bottom: -17px;
+}
+.bank__descriptions__arrow_b-2 {
+  bottom: 39px;
+}
+.bank__descriptions__arrow_b-3 {
+  bottom: 39px;
+}
+.bank__descriptions__arrow_b-4 {
+  bottom: 49px;
+}
+
+.table-col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.logo {
+  margin-top: 60px;
+}
+
+/*Changing bootstrap table styles*/
+.table-custom thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 0;
+}
+
+.table-custom thead > tr > th, .table-custom tbody > tr > th, .table-custom tfoot > tr > th, .table-custom thead > tr > td, .table-custom tbody > tr > td, .table-custom tfoot > tr > td {
+  padding: 3px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #00b297;
+}
+
+/*end*/
+.table-block__title {
+  color: #424243;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "PT Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.table-block:after {
+  content: "";
+  width: 49px;
+  height: 34px;
+  top: calc(50% + 25px);
+  right: -57px;
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  position: absolute;
+  background: url("../imgs/arrow-right.png") no-repeat;
+}
+
+.table-custom {
+  border: 4px solid #00b297;
+}
+.table-custom__thead {
+  background: #00b297;
+}
+.table-custom__thead .tr th {
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  padding: 7px 0 7px 10px;
+  color: #fff;
+}
+.table-custom__tbody tr {
+  color: #424243;
+}
+.table-custom__tbody tr td {
+  padding: 3px;
+  vertical-align: middle;
+}
+.table-custom__tbody tr td .td-inner-wrap {
+  display: inline-block;
+  color: #404041;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  width: 100%;
+  padding: 7px 12px;
+}
+.table-custom__tbody tr td .providers {
+  font-weight: bold;
+  background: #dfe1e5;
+}
+.table-custom__tbody tr td .td-inner-wrap_red {
+  background: #d4524b;
+}
+.table-custom__tbody tr td .td-inner-wrap_yellow {
+  background: #f1c40f;
+}
+
+.computer-block {
+  position: relative;
+  top: 71px;
+  left: 47px;
+  width: calc(100% - 28px);
+  max-width: 307px;
+  height: 251px;
+  background: url("../imgs/computer.png") no-repeat;
+  background-size: contain;
+}
+
+.statistical-data {
+  display: inline-block;
+  margin-top: 56px;
+}
+.statistical-data__block {
+  display: inline-block;
+  padding: 5px 16px;
+}
+.statistical-data__block_sell {
+  background: #d4524b;
+}
+.statistical-data__block__info-number, .statistical-data__block__info-text {
+  color: #fff;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: "PT Sans", sans-serif;
+}
+.statistical-data__block__info-text {
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+.statistical-data__block_buy {
+  background: #0fa08a;
+}
+
+.work-process {
+  position: relative;
+}
+.work-process__title {
+  color: #424243;
+  font-weight: normal;
+  font-family: "PT Sans", sans-serif;
+  font-size: 36px;
+  margin: 50px 0 40px 0;
+}
+.work-process__list {
+  padding-left: 10px;
+}
+.work-process__list__item {
+  margin-top: 33px;
+}
+.work-process__list__item:first-child {
+  margin-top: 0;
+}
+.work-process__list__item__id {
+  display: inline-block;
+  position: absolute;
+  color: #bfbebf;
+  font-size: 44px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  padding-right: 16px;
+}
+.work-process__list__item__text-wrap {
+  position: relative;
+  display: inline-block;
+  top: 8px;
+  padding-left: 40px;
+}
+.work-process__list__item__text-wrap__title {
+  font-size: 22px;
+  color: #424243;
+  margin-bottom: 0;
+}
+.work-process__list__item__text-wrap__text {
+  font-size: 16px;
+  color: #424243;
+  margin-bottom: 0;
+}
+
+.scrollup {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 47px;
+  height: 49px;
+  cursor: pointer;
+  background: url("../imgs/scrollup.png") no-repeat;
+}
+
+@media only screen and (max-width: 1150px) {
+  .bank__descriptions__arrow {
+    display: none;
+  }
+  .bank:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .statistical-data {
+    margin-top: 46px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .inner_wrapper {
+    text-align: center;
+  }
+
+  .bank {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .title-block__title-name {
+    font-size: 22px;
+  }
+
+  .bank {
+    width: auto;
+    float: none;
+    text-align: center;
+  }
+
+  .table-block:after {
+    display: none;
+  }
+
+  .computer-col {
+    text-align: center;
+  }
+
+  .computer-block {
+    top: 20px;
+    left: 0;
+    display: inline-block;
+  }
+
+  .statistical-data {
+    margin-top: 56px;
+  }
+  .statistical-data__block__info-number, .statistical-data__block__info-text {
+    font-size: 18px;
+  }
+
+  .work-process__title {
+    font-size: 22px;
+    padding-left: 10px;
+  }
+  .work-process .work-process__list__item__text-wrap__title {
+    font-size: 16px;
+  }
+  .work-process .work-process__list__item__text-wrap__text {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .bank__descriptions {
+    display: block;
+  }
+  .bank__descriptions__list {
+    padding: 0;
+    bottom: 0;
+  }
+
+  .statistical-data {
+    margin-top: 36px;
+  }
+  .statistical-data__block__info-number, .statistical-data__block__info-text {
+    font-size: 14px;
+  }
+}
